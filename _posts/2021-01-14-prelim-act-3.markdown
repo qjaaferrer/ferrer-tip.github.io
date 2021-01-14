@@ -49,9 +49,8 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/activity3](htt
 
 ```
 .
- qjaaferrer-tip
-     activity3
-         activity3_copy
-         ansible.cfg
-         inventory
+└── activity3
+    ├── activity3_copy
+    ├── ansible.cfg
+    └── inventory
 ```
