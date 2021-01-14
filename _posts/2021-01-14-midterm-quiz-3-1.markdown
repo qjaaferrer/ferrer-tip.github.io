@@ -22,52 +22,52 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/quiz31](https:
 
 ```
 .
- 1810135
-  quiz31
-      README.md
-      playbook.yaml
-      roles
-          files_folders
-           README.md
-           defaults
-            main.yml
-           handlers
-            main.yml
-           meta
-            main.yml
-           tasks
-            main.yml
-           tests
-            test.yml
-           vars
-               main.yml
-          ssh_user
-           README.md
-           defaults
-            main.yml
-           handlers
-            main.yml
-           meta
-            main.yml
-           tasks
-            main.yml
-           tests
-            test.yml
-           vars
-               main.yml
-          vsftpd_installation
-              README.md
-              defaults
-               main.yml
-              handlers
-               main.yml
-              meta
-               main.yml
-              tasks
-               main.yml
-              tests
-               test.yml
-              vars
-                  main.yml
- README.md
+├── 1810135
+│   └── quiz31
+│       ├── README.md
+│       ├── playbook.yaml
+│       └── roles
+│           ├── files_folders
+│           │   ├── README.md
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           ├── ssh_user
+│           │   ├── README.md
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           └── vsftpd_installation
+│               ├── README.md
+│               ├── defaults
+│               │   └── main.yml
+│               ├── handlers
+│               │   └── main.yml
+│               ├── meta
+│               │   └── main.yml
+│               ├── tasks
+│               │   └── main.yml
+│               ├── tests
+│               │   └── test.yml
+│               └── vars
+│                   └── main.yml
+└── README.md
 ``` 
