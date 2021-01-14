@@ -28,43 +28,43 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/activity6](htt
 
 ```
 .
- 1810135
-  activity6
-      README.md
-      ansible.cfg
-      inventory
-      playbook.yaml
-      roles
-          centos_installation
-           README.md
-           defaults
-            main.yml
-           handlers
-            main.yml
-           meta
-            main.yml
-           tasks
-            main.yml
-           tests
-            inventory
-            test.yml
-           vars
-               main.yml
-          ubuntu_installation
-              README.md
-              defaults
-               main.yml
-              handlers
-               main.yml
-              meta
-               main.yml
-              tasks
-               main.yml
-              tests
-               inventory
-               test.yml
-              vars
-                  main.yml
- README.md
+├── 1810135
+│   └── activity6
+│       ├── README.md
+│       ├── ansible.cfg
+│       ├── inventory
+│       ├── playbook.yaml
+│       └── roles
+│           ├── centos_installation
+│           │   ├── README.md
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   ├── inventory
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           └── ubuntu_installation
+│               ├── README.md
+│               ├── defaults
+│               │   └── main.yml
+│               ├── handlers
+│               │   └── main.yml
+│               ├── meta
+│               │   └── main.yml
+│               ├── tasks
+│               │   └── main.yml
+│               ├── tests
+│               │   ├── inventory
+│               │   └── test.yml
+│               └── vars
+│                   └── main.yml
+└── README.md
 
 ```
