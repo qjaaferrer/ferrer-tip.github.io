@@ -22,39 +22,39 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/quiz32](https:
 
 ```
 .
- README.md
- ansible.cfg
- inventory
- playbook.yaml
- roles
-     installation_httpd_centos
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     installation_httpd_ubuntu
-         README.md
-         defaults
-          main.yml
-         handlers
-          main.yml
-         meta
-          main.yml
-         tasks
-          main.yml
-         tests
-          inventory
-          test.yml
-         vars
-             main.yml
+├── README.md
+├── ansible.cfg
+├── inventory
+├── playbook.yaml
+└── roles
+    ├── installation_httpd_centos
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    └── installation_httpd_ubuntu
+        ├── README.md
+        ├── defaults
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        ├── tests
+        │   ├── inventory
+        │   └── test.yml
+        └── vars
+            └── main.yml
 ```
