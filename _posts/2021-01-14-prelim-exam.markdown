@@ -49,62 +49,62 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/prelim-exam](h
 
 ```
 .
- config.yaml
- roles
-     change_motd
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       test.yml
-      vars
-          main.yml
-     install_java
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       test.yml
-      vars
-          main.yml
-     install_python
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       test.yml
-      vars
-          main.yml
-     new_user
-         README.md
-         defaults
-          main.yml
-         handlers
-          main.yml
-         meta
-          main.yml
-         tasks
-          main.yml
-         tests
-          test.yml
-         vars
-             main.yml
+├── config.yaml
+└── roles
+    ├── change_motd
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── install_java
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── install_python
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    └── new_user
+        ├── README.md
+        ├── defaults
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        ├── tests
+        │   └── test.yml
+        └── vars
+            └── main.yml
 ```
