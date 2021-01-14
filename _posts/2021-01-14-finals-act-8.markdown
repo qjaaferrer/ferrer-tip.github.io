@@ -33,13 +33,13 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/activity8/acti
 
 ```
 .
- README.md
- ansible.cfg
- docker.yaml
- dockerfiles
-     db_server
-      dockerfile
-     web_server
-         dockerfile
-         index.html
+├── README.md
+├── ansible.cfg
+├── docker.yaml
+└── dockerfiles
+    ├── db_server
+    │   └── dockerfile
+    └── web_server
+        ├── dockerfile
+        └── index.html
 ```
