@@ -29,10 +29,10 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/activity4](htt
 
 ```
 .
- README.md
- qjaaferrer
-     activity4
-         ansible.cfg
-         inventory
-         playbook.yaml
+├── README.md
+└── qjaaferrer
+    └── activity4
+        ├── ansible.cfg
+        ├── inventory
+        └── playbook.yaml
 ```
