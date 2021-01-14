@@ -20,99 +20,99 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/quiz41](https:
 
 ```
 .
- README.md
- ansible.cfg
- inventory
- playbook.yaml
- roles
-     centos_configuration
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     nagmain_centos
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     nagmain_ubuntu
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     nagplugs_centos
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     nagplugs_ubuntu
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     ubuntu_configuration
-         README.md
-         defaults
-          main.yml
-         handlers
-          main.yml
-         meta
-          main.yml
-         tasks
-          main.yml
-         tests
-          inventory
-          test.yml
-         vars
-             main.yml
+├── README.md
+├── ansible.cfg
+├── inventory
+├── playbook.yaml
+└── roles
+    ├── centos_configuration
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── nagmain_centos
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── nagmain_ubuntu
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── nagplugs_centos
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── nagplugs_ubuntu
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    └── ubuntu_configuration
+        ├── README.md
+        ├── defaults
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        ├── tests
+        │   ├── inventory
+        │   └── test.yml
+        └── vars
+            └── main.yml
 ```
