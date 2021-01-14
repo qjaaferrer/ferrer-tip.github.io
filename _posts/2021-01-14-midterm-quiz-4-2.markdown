@@ -22,42 +22,42 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/quiz42](https:
 
 ```
 .
- ansible.cfg
- grafana.repo
- influxdb.repo
- inventory
- main.yaml
- prometheus.repo
- roles
-     centos_installation
-      README.md
-      defaults
-       main.yml
-      handlers
-       main.yml
-      meta
-       main.yml
-      tasks
-       main.yml
-      tests
-       inventory
-       test.yml
-      vars
-          main.yml
-     ubuntu_installation
-         README.md
-         defaults
-          main.yml
-         handlers
-          main.yml
-         meta
-          main.yml
-         tasks
-          main.yml
-         tests
-          inventory
-          test.yml
-         vars
-             main.yml
+├── ansible.cfg
+├── grafana.repo
+├── influxdb.repo
+├── inventory
+├── main.yaml
+├── prometheus.repo
+└── roles
+    ├── centos_installation
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    └── ubuntu_installation
+        ├── README.md
+        ├── defaults
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        ├── tests
+        │   ├── inventory
+        │   └── test.yml
+        └── vars
+            └── main.yml
 ```
 
