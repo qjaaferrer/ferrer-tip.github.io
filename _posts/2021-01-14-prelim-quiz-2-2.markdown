@@ -18,15 +18,15 @@ Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/quiz22](https:
 
 ```
 .
- 1810135
-  README.md
-  ansible.cfg
-  inventory
-  playbook.yaml
-  quiz22
-      README.md
-      ansible.cfg
-      inventory
-      playbook.yaml
- README.md
+├── 1810135
+│   ├── README.md
+│   ├── ansible.cfg
+│   ├── inventory
+│   ├── playbook.yaml
+│   └── quiz22
+│       ├── README.md
+│       ├── ansible.cfg
+│       ├── inventory
+│       └── playbook.yaml
+└── README.md
 ```
