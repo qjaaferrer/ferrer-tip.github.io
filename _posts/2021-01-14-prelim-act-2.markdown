@@ -61,7 +61,7 @@ Commands used:
 Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/activity2](https://github.com/qjaaferrer/sysad2-12021/tree/activity2)
 ```
 .
- qjaaferrer
-     activity2
-         HA2.md
+└── qjaaferrer
+    └── activity2
+        └── HA2.md
 ```
