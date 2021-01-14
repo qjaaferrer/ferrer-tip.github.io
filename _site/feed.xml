@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://10.87.164.117:4000/qjaaferrer.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://10.87.164.117:4000/qjaaferrer.github.io/" rel="alternate" type="text/html" /><updated>2021-01-14T14:27:06+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/feed.xml</id><title type="html">Managing Enterprise Servers Portfolio</title><subtitle>I will have an administrative system where there is no way to extricate red tape.</subtitle><entry><title type="html">PRELIM-ACT-2</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-2.html" rel="alternate" type="text/html" title="PRELIM-ACT-2" /><published>2021-01-14T07:07:28+00:00</published><updated>2021-01-14T07:07:28+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-2</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-2.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Create an account in Github&lt;/strong&gt;
+Username should be your given initials and last name followed by -tip (e.g.  ajcanlas-tip)
+Use your TIP email address for this (if you have already linked your email with GitHub create a separate one)
+Verify your account in your email in GitHub,
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104586668-bbc5f180-56a0-11eb-8f46-3869a84b47dd.png&quot; alt=&quot;HA2 1&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Create a repository with your username (in my case it is ajcanlas-tip) without any files, and it should be public.&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104587140-735b0380-56a1-11eb-8d08-2833ae62da70.png&quot; alt=&quot;HA2 2&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In your Alpine VM clone the repository you just created in my case this is my url [https://github.com/ajcanlas-tip/ajcanlas-tip.git] (https://github.com/ajcanlas-tip/ajcanlas-tip.git)
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104587207-8e2d7800-56a1-11eb-92ac-f98557f93cc0.png&quot; alt=&quot;HA2 3&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create a profile with Markdown this is a cheat sheat (Links to an external site.) in a “README.md” file&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;To add it to your profile add the README.md file commit it then push it in the repository (to push a repository use git push -u origin master)
+Commands:
+git add README.md
+git commit -m “First commit”
+git push -u origin master&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104589303-9aff9b00-56a4-11eb-94b7-cc9e7ec1baa3.png&quot; alt=&quot;HA2 4&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104589439-d4d0a180-56a4-11eb-8382-d1b9faf7c4b7.png&quot; alt=&quot;HA 2 5&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Clone your newly forked repository with git clone h (Links to an external site.)ttps://github.com/&amp;lt; your username &amp;gt;/sysad2-12021.git and  go in the repository directory.&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104589509-f0d44300-56a4-11eb-84fd-08b82410bde4.png&quot; alt=&quot;HA 2 6&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make a new branch named “activity2” using git branch activity2 and git checkout activity2&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104589652-2aa54980-56a5-11eb-8c40-87d6b66455d6.png&quot; alt=&quot;HA 2 7 &quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make a new new remote upstream with git&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104589698-3abd2900-56a5-11eb-8197-d7d7f12414cb.png&quot; alt=&quot;HA 2 8&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create your directory with your username, create a directory named “activity2” add the previous README.md file as HA2.md&lt;/strong&gt;
+Command used:
+    &lt;ol&gt;
+      &lt;li&gt;mkdir &lt;your username=&quot;&quot;&gt;&lt;/your&gt;&lt;/li&gt;
+      &lt;li&gt;mkdir activity2&lt;/li&gt;
+      &lt;li&gt;cp &lt;path of=&quot;&quot; your=&quot;&quot; README.md=&quot;&quot; file=&quot;&quot;&gt; HA2.md
+![HA 2 9](https://user-images.githubusercontent.com/75325962/104589850-6fc97b80-56a5-11eb-91f0-81d004ebbb6f.png)&lt;/path&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;add,commit and push it to your activity2 branch&lt;/strong&gt;
+Commands used:
+    &lt;ol&gt;
+      &lt;li&gt;git add HA2.md&lt;/li&gt;
+      &lt;li&gt;git commit -s -n “activity2”&lt;/li&gt;
+      &lt;li&gt;git push -u origin upstream
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104590108-ccc53180-56a5-11eb-95c3-f56d0e1cf18c.png&quot; alt=&quot;HA 2 10&quot; /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Request a pull request for the master branch in &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt; and activity2 branch of your forked repository
+&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104590553-799fae80-56a6-11eb-9c0d-cbbd90c5dd11.png&quot; alt=&quot;HA 2 11&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity2&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity2&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ qjaaferrer
+     activity2
+         HA2.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Create an account in Github Username should be your given initials and last name followed by -tip (e.g. ajcanlas-tip) Use your TIP email address for this (if you have already linked your email with GitHub create a separate one) Verify your account in your email in GitHub,</summary></entry><entry><title type="html">PRELIM-ACT-3</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-3.html" rel="alternate" type="text/html" title="PRELIM-ACT-3" /><published>2021-01-14T07:07:28+00:00</published><updated>2021-01-14T07:07:28+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-3</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-3.html">&lt;p&gt;Setup is Alpine and Ubuntu VMs are connected via a local network, in my case&lt;/p&gt;
+
+&lt;p&gt;Alpine VM, IP is 192.168.122.117 (Or Any VM that has Git installed)&lt;/p&gt;
+
+&lt;p&gt;Ubuntu VM,IP is 192.168.122.125 and hostname should be ubuntu-&lt;your student=&quot;&quot; number=&quot;&quot;&gt; (e.g. ubuntu-1110670)&lt;/your&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork the instructor repository and clone the repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a new branch called “activity3” and checkout in that branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a directory with your username as its name and go inside of it, and create a directory called “activity3” and go inside it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Ansible via apk in your Alpine VM.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To check if you installed Ansible correctly check the python version it in Ansible version command would reflect python 3.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;First, create a configuration file named “ansible.cfg”, Ansible checks per-directory thus you can have multiple configurations in a system depending on your configuration file in the current directory.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next, populate the ansible.cfg file with basic information such as inventory, host verification, and your default remote user.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next, create your first inventory file with Ubuntu IP on it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then try to connect using “ping” module via adhoc command&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now use “shell” module to check the user via bash commands. (check for the user, hostname, and id)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And we can use the “copy” module to create a file with a certain file with the content or copy from your local VM to your remote VM.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For more modules, you can check this link (Links to an external site.) of the module index.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can also check the description of the module using ansible-doc&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also, you can group your inventory via the grouping feature of Ansible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add commit push and create a PR.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity3&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity3&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ qjaaferrer-tip
+     activity3
+         activity3_copy
+         ansible.cfg
+         inventory
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Setup is Alpine and Ubuntu VMs are connected via a local network, in my case</summary></entry><entry><title type="html">PRELIM-ACT-4</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-4.html" rel="alternate" type="text/html" title="PRELIM-ACT-4" /><published>2021-01-14T07:07:28+00:00</published><updated>2021-01-14T07:07:28+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-4</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-4.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your newly forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new branch named “activity4” from master branch using &lt;strong&gt;git branch activity4&lt;/strong&gt; and &lt;strong&gt;git checkout activity4&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Note: To Prevent Conflicts Create a directory with your username as its name and go inside of it, and create a directory called “activity4” and go inside it.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new remote upstream with git remote add upstream &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a playbook that install java via package manager , and install boto,ansible,and openstack py packages using pip in both Ubuntu and Centos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;add,commit and push it to your activity4 branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request a pull request for the master branch in  &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;  and activity4 branch of your forked repository.&lt;/p&gt;
+    &lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity4&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity4&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ README.md
+ qjaaferrer
+     activity4
+         ansible.cfg
+         inventory
+         playbook.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">PRELIM-ACT-5</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-5.html" rel="alternate" type="text/html" title="PRELIM-ACT-5" /><published>2021-01-14T07:07:28+00:00</published><updated>2021-01-14T07:07:28+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-5</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/prelim-act-5.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your newly forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new branch named “activity5” from master branch using &lt;strong&gt;git branch activity5&lt;/strong&gt; and &lt;strong&gt;git checkout activity4&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Note: To Prevent Conflicts Create a directory with your username as its name and go inside of it, and create a directory called “activity5” and go inside it.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new new remote upstream with git remote add upstream &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Optimize the playbook in Hands-on Activity 4: Ansible Playbooks&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;add,commit and push it to your activity5 branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request a pull request for the master branch in &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;  and activity5 branch of your forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Github branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity5&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity5&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ README.md
+ qjaaferrer-tip
+     activity5
+         ansible.cfg
+         inventory
+         playbook.yaml
+         roles
+             Package_Installation_CentOS
+              README.md
+              defaults
+               main.yml
+              handlers
+               main.yml
+              meta
+               main.yml
+              tasks
+               main.yml
+              tests
+               inventory
+               test.yml
+              vars
+                  main.yml
+             Package_Installation_Ubuntu
+                 README.md
+                 defaults
+                  main.yml
+                 handlers
+                  main.yml
+                 meta
+                  main.yml
+                 tasks
+                  main.yml
+                 tests
+                  inventory
+                  test.yml
+                 vars
+                     main.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">FINAL-ACT-7</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-7.html" rel="alternate" type="text/html" title="FINAL-ACT-7" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-7</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-7.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your newly forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new branch named “activity7” from master branch using &lt;em&gt;git branch activity7&lt;/em&gt; and &lt;em&gt;git checkout activity7&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new remote upstream with git remote add upstream &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a playbook that installs ELK, Nagios, Grafana + Prometheus in both Ubuntu and Centos (use Roles to optimize the playbook)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create different plays in installing per service and identify it as a group in Inventory file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;add,commit and push it to your activity7 branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request a pull request for the master branch in &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt; and activity7 branch of your forked repository&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-output&quot;&gt;SUMMARIZATION OUTPUT:&lt;/h3&gt;
+
+&lt;p&gt;Github branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity7&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity7&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ 1810135
+  activity7
+      README.md
+      ansible.cfg
+      elasticsearch.repo
+      grafana.repo
+      inventory
+      main.yaml
+      prometheus.repo
+      roles
+          centos_elk
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          centos_grafana
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          centos_nagios
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          centos_prometheus
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          ubuntu_elk
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          ubuntu_grafana
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          ubuntu_nagios
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          ubuntu_prometheus
+              README.md
+              defaults
+               main.yml
+              handlers
+               main.yml
+              meta
+               main.yml
+              tasks
+               main.yml
+              tests
+               inventory
+               test.yml
+              vars
+                  main.yml
+ README.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">FINAL-ACT-8</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-8.html" rel="alternate" type="text/html" title="FINAL-ACT-8" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-8</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-act-8.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your newly forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new branch named “activity8” from master branch using &lt;em&gt;git branch activity8&lt;/em&gt; and &lt;em&gt;git checkout activity8&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new remote upstream with git remote add upstream &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Docker and enable the docker socket.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add to docker group to your current user.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a Dockerfile to install web and db server&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install and build the Dockerfile using Ansible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;add,commit and push it to your activity8 branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request a pull request for the master branch in &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt; and activity7 branch of your forked repository&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity8/activity8&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity8/activity8&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ README.md
+ ansible.cfg
+ docker.yaml
+ dockerfiles
+     db_server
+      dockerfile
+     web_server
+         dockerfile
+         index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">FINAL EXAM: Hands-On</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-exam.html" rel="alternate" type="text/html" title="FINAL EXAM: Hands-On" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-exam</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-exam.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;PROCEDURE&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your new repository in your VM &lt;em&gt;https://github.com/&amp;lt; your username &amp;gt;/sysad2-12021.git&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a branch named “final-exam” and checkout in that branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create an Ansible playbook that does the following with an input of a config.yaml file and structure inventory file.&lt;/p&gt;
+
+    &lt;p&gt;4.1 Clone your prelim exam repository&lt;/p&gt;
+
+    &lt;p&gt;4.2 Install and configure one enterprise service that can be installed in Debian,Centos and OpenSuse servers&lt;/p&gt;
+
+    &lt;p&gt;4.3 Install and configure one monitoring tool that can be installed in Debian, Centos and OpenSuse servers (if it is a stack there should be option of different host)&lt;/p&gt;
+
+    &lt;p&gt;4.4 Change Motd as “Ansible Managed by * &amp;lt; username &amp;gt; *”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;push and commit your final-exam branch in the VM (no need for ansible.cfg upon pushing)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;request a pull request from that branch in GitHub&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For your final exam to be counted, please paste your repository link as an answer in this exam.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Extra points if you will implement the said services via containerization.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">FINAL QUIZ 5.1</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-quiz-5-1.html" rel="alternate" type="text/html" title="FINAL QUIZ 5.1" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-quiz-5-1</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/finals-quiz-5-1.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;PROCEDURE&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a directory named “quiz51” in your student number directory in Quiz 1.3&lt;/li&gt;
+  &lt;li&gt;Create a markdown file named “README.md” in the newly created directory with the directory summary.&lt;/li&gt;
+  &lt;li&gt;Create playbook to install Elastic Stack in a contanerized form.&lt;/li&gt;
+  &lt;li&gt;Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/quiz51&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/quiz51&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ README.md
+ ansible.cfg
+ inventory
+ main.yaml
+ roles
+     elk_centos
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     elk_ubuntu
+         README.md
+         defaults
+          main.yml
+         handlers
+          main.yml
+         meta
+          main.yml
+         tasks
+          1
+          main.yml
+         tests
+          inventory
+          test.yml
+         vars
+             main.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">MIDTERM-ACT-6</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-act-6.html" rel="alternate" type="text/html" title="MIDTERM-ACT-6" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-act-6</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-act-6.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your newly forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new branch named “activity6” from master branch using &lt;em&gt;git branch activity6&lt;/em&gt; and &lt;em&gt;git checkout activity6&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new new remote upstream with git remote add upstream  &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a playbook that installs dhcpd, bind9, vsftpd, samba, httpd, mariadb in both Ubuntu and Centos (use Roles to optimize the playbook)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create different plays in installing per service and identify it as a group in Inventory file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;add,commit and push it to your activity6 branch&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Request a pull request for the master branch in &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;  and activity6 branch of your forked repository.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-outpu&quot;&gt;SUMMARIZATION OUTPU:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/activity6&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/activity6&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ 1810135
+  activity6
+      README.md
+      ansible.cfg
+      inventory
+      playbook.yaml
+      roles
+          centos_installation
+           README.md
+           defaults
+            main.yml
+           handlers
+            main.yml
+           meta
+            main.yml
+           tasks
+            main.yml
+           tests
+            inventory
+            test.yml
+           vars
+               main.yml
+          ubuntu_installation
+              README.md
+              defaults
+               main.yml
+              handlers
+               main.yml
+              meta
+               main.yml
+              tasks
+               main.yml
+              tests
+               inventory
+               test.yml
+              vars
+                  main.yml
+ README.md
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">MIDTERM EXAM: Hands-On</title><link href="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-exam.html" rel="alternate" type="text/html" title="MIDTERM EXAM: Hands-On" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-exam</id><content type="html" xml:base="http://10.87.164.117:4000/qjaaferrer.github.io/jekyll/update/2021/01/14/midterm-exam.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/75325962/104575255-ea889b80-5691-11eb-9cff-aff07244d103.png&quot; alt=&quot;104281202-16681d80-54e8-11eb-9078-1ef278217c83&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;PROCEDURE&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fork this repository &lt;a href=&quot;https://github.com/ajcanlas-tip/sysad2-12021.git&quot;&gt;https://github.com/ajcanlas-tip/sysad2-12021.git&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone your new repository in your VM &lt;em&gt;https://github.com/&amp;lt; your username &amp;gt;/sysad2-12021.git&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a branch named “midterm-exam” and checkout in that branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create an Ansible playbook that does the following with an input of a config.yaml file and arranged Inventory file:&lt;/p&gt;
+
+    &lt;p&gt;4.1 Install and configure Elastic Stack in separate  hosts (Elastic Search, Kibana, Logstash)&lt;/p&gt;
+
+    &lt;p&gt;4.2 Install Nagios in one host&lt;/p&gt;
+
+    &lt;p&gt;4.3 Install Grafana,Prometheus and Influxdb in seperate hosts (Influxdb,Grafana,Prometheus)&lt;/p&gt;
+
+    &lt;p&gt;4.4 Install Lamp Stack in seperate hosts (Httpd + Php,Mariadb)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;push and commit your midterm-exam branch in the VM (no need for ansible.cfg upon pushing)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;request a pull request from that branch in GitHub&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For your midterm exam to be counted, please paste your repository link as an answer in this exam.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarization-path&quot;&gt;SUMMARIZATION PATH:&lt;/h3&gt;
+
+&lt;p&gt;Git branch link: &lt;a href=&quot;https://github.com/qjaaferrer/sysad2-12021/tree/midterm-exam&quot;&gt;https://github.com/qjaaferrer/sysad2-12021/tree/midterm-exam&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+ README.md
+ config.yaml
+ grafana.repo
+ influxdb.repo
+ inventory
+ main.yaml
+ roles
+     elk_ubuntu
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     grafana_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     httpd_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     influxdb_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     kibana_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     logstash_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     mariadb_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     nagios_host
+      README.md
+      defaults
+       main.yml
+      handlers
+       main.yml
+      meta
+       main.yml
+      tasks
+       main.yml
+      tests
+       inventory
+       test.yml
+      vars
+          main.yml
+     prometheus_host
+         README.md
+         defaults
+          main.yml
+         handlers
+          main.yml
+         meta
+          main.yml
+         tasks
+          main.yml
+         tests
+          inventory
+          test.yml
+         vars
+             main.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry></feed>
