@@ -34,7 +34,7 @@ title:  "FINAL EXAM: Hands-On"
 
 ### SUMMARIZATION PATH:
 
-Git branch link: https://github.com/qjaaferrer/sysad2-12021/tree/final-exam
+Git branch link: [https://github.com/qjaaferrer/sysad2-12021/tree/final-exam](https://github.com/qjaaferrer/sysad2-12021/tree/final-exam)
 
 ```
 .
