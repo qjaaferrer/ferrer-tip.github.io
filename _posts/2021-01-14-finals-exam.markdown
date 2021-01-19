@@ -34,8 +34,163 @@ title:  "FINAL EXAM: Hands-On"
 
 ### SUMMARIZATION PATH:
 
-Git branch link:
+Git branch link: https://github.com/qjaaferrer/sysad2-12021/tree/final-exam
 
 ```
-
+.
+├── README.md
+├── config.yaml
+├── final.yaml
+├── inventory
+└── roles
+    ├── centos_cloning
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── centos_ftp
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── centos_nagios
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── debian_cloning
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── debian_ftp
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── debian_nagios
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── leapsuse_cloning
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── leapsuse_ftp
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    ├── leapsuse_nagios
+    │   ├── README.md
+    │   ├── defaults
+    │   │   └── main.yml
+    │   ├── handlers
+    │   │   └── main.yml
+    │   ├── meta
+    │   │   └── main.yml
+    │   ├── tasks
+    │   │   └── main.yml
+    │   ├── tests
+    │   │   ├── inventory
+    │   │   └── test.yml
+    │   └── vars
+    │       └── main.yml
+    └── motd
+        ├── README.md
+        ├── defaults
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        ├── tests
+        │   ├── inventory
+        │   └── test.yml
+        └── vars
+            └── main.yml
 ```
